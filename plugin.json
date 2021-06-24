@@ -1,0 +1,21 @@
+{
+  "author": "Jeremy Berglund",
+  "pluginName": "plugin-template-react-typescript",
+  "pluginDescription": "BuildFire plugin template for React + TypeScript",
+  "supportEmail": "",
+  "control": {
+    "content": {
+      "enabled": true
+    },
+    "design": {
+      "enabled": true
+    },
+    "settings": {
+      "enabled": true
+    }
+  },
+  "widget": {},
+  "features": [],
+  "webpack": "8080",
+  "languages": ["en"]
+}

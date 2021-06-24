@@ -1,0 +1,12 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "rules": {
+    "consistent-return": 0,
+    "react/prop-types": false
+  },
+  "settings": {}
+}
