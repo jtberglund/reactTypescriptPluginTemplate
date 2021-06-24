@@ -19,15 +19,15 @@ const WebpackConfig = {
 
   entry: {
     'control/content/content': [
-      path.join(__dirname, 'src/control/content/index.js'),
+      path.join(__dirname, 'src/control/content/index.tsx'),
     ],
     'control/design/design': [
-      path.join(__dirname, 'src/control/design/index.js'),
+      path.join(__dirname, 'src/control/design/index.tsx'),
     ],
     'control/settings/settings': [
-      path.join(__dirname, 'src/control/settings/index.js'),
+      path.join(__dirname, 'src/control/settings/index.tsx'),
     ],
-    'widget/widget': [path.join(__dirname, 'src/widget/index.js')],
+    'widget/widget': [path.join(__dirname, 'src/widget/index.tsx')],
   },
 
   output: {
@@ -48,7 +48,7 @@ const WebpackConfig = {
         use: ['ts-loader'],
       },
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules)/,
         use: 'babel-loader',
       },
